@@ -2,7 +2,8 @@
 
 <head></head>
 <body>
-<td th:text="${#dates.format(d * 1000, 'dd-MM-yyyy')}">date</td>
+
+<td th:text="${#dates.format(myTime.time * 1000, 'dd-MM-yyyy')}">date</td>
 
 </body>
 </html>
